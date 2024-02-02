@@ -3,7 +3,6 @@ try:
 except RuntimeError:
     print( f'{__name__} error: RPi.GPIO import error - probably you not use the "sudo" statement to run the .py file')
 
-
 class LED:
     gpio_name: str 
     gpio_num: int 
